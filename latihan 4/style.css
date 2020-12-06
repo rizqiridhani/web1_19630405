@@ -1,0 +1,11 @@
+.kotak{
+    background: #0288d1;
+    padding: 10px;
+}
+.tulisan{
+    color: #f8bbd0;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25pt;
+}

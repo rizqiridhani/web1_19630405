@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="proses.php" method="POST">
+    <label>Nama lengkap : </label>
+    <input type="text" name="nama" id="nama">
+    <br>
+    <label>Jenis Kelamin : </label>
+    <input type="radio" name="jenkel" id="lelaki" value="L"> lelaki
+    <input type="radio" name="jenkel" id="perempuan" value="P"> perempuan
+    <br>
+    <label>Hobi : </label>
+    <input type="checkbox" name="hobi" value="sepakbola">sepakbola
+    <input type="checkbox" name="hobi" value="memancing">memancing
+    <input type="checkbox" name="hobi" value="mabar">mabar 
+    <br>
+    <label>Asal Daerah : </label>
+    <select name="asal">
+        <option value="banjarmasin">banjarmasin</option>
+        <option value="banjarbaru">banjarbaru</option>
+        <option value="landasan ulin">landasan ulin</option>
+    </select>
+    <br>
+    <label>kata kunci : </label>
+    <input type="password" name="password">
+    <br>
+    <label>pesan dan kesan : </label>
+    <textarea name="pesankesan" cols="30" rows="5">
+        isikan pesan dan kesan
+    </textarea>
+    <br>
+    <input type="submit" value="kirim data">
+</form>
+</body>
+</html>
